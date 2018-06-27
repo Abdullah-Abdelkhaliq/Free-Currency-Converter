@@ -1,0 +1,152 @@
+/* Start Basic */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+*    {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color:#3b8686;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+/* End Basic */
+
+/* Start Container */
+.container {
+ position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 230px;
+  background-color:#ccc; 
+  border-radius: 50px;
+  text-align: center;
+}
+/* End Container */
+
+
+/* Start Main Header */
+.header {
+  position: relative;
+  margin: auto;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 80px;
+  background-color: #79bd9a;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  text-align: center;
+  border-bottom: 2px dotted #ccc;
+}
+
+.header h1 {
+
+	padding-top: 20px;
+	color: white ;
+	font-size: 40px;
+}
+
+/* End Header */
+
+
+/* Start Part1 */
+/* Start Part1 Container */
+.part1con {
+	float: left;
+	color: #388E3C;
+	width: 50%;
+
+  
+ 
+}
+/* End Part1 Container */
+/*Start Part 1 Header */	
+.part1HEADER {
+	
+	background-color: #66BB6A;
+	color: #388E3C;
+	border-right: 2px dotted #ccc;
+	margin-bottom: 20px;
+}
+/*End Part 1 Header */	
+/* End   Part1 */
+
+
+/* Start Part1 Content */
+
+
+
+
+/* Start Part2 */
+
+/* Start Part2 Container */
+.part2con {
+	float: right;
+	color: #388E3C;
+	width: 50%;
+}
+/* End Part2 Container */
+/*Start Part 2 Header */	
+.part2HEADER {
+	background-color: #66BB6A;
+	color: #388E3C;
+	margin-bottom: 20px;
+}
+/* End   Part2 Header */
+
+
+/* Start Part2 Content */
+
+
+
+
+
+/* Some  Other Basic & Inputs */
+select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 95% ;
+   overflow: hidden;
+   width: 140px;
+   border: 0;
+   border-radius: 2px;
+   background-color:#66BB6A; 
+   -moz-appearance: none;
+   
+   color: white;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+  
+}
+
+option {
+	background-color: #388E3C;
+	cursor: pointer;
+}
+input[type="text"] {
+	
+   width: 200px;
+   height: 30px;
+   border:0;
+   border-radius: 5px;
+   background-color:#66BB6A; 
+   color: white;
+   font-family: 'Ubuntu', sans-serif;
+   margin-top: 15px;
+   padding-left: 10px;
+   font-size: 20px;
+
+}
+
+
+.clearfix {
+	clear: both;
+}
+/* Some  Other Basic */
